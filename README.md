@@ -86,7 +86,7 @@ email-template-event/
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the [LICENSE](https://github.com/Mr-ONeill/email-template-event/blob/main/LICENSE) for full details.
+This project is licensed under the MIT License — see the [LICENSE](https://github.com/Mr-0Neill/Email-Remplate-event/blob/main/LICENSE) for full details.
 
 ---
 
