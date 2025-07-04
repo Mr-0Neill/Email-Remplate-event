@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event Notification</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Roboto, Tahoma, Geneva, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefefe;
+    }
+
+    .email-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+    }
+
+    .header {
+      background-color: #ffd6a5;
+      color: #222;
+      padding: 20px;
+      text-align: center;
+      border-radius: 0 0 20px 20px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 26px;
+      color: #ff6700;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .two-columns {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .column img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .footer {
+      background-color: #ffd6a5;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 20px 20px 0 0;
+      text-align: center;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .footer a {
+      color: #6499ff;
+      text-decoration: none;
+    }
+
+    .logo {
+      margin-top: 10px;
+      height: 80px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .cont-vertical {
+      flex-direction: column;
+    }
+
+    .course-box {
+      background-color: #a0c4ff;
+      color: #1a1a1a;
+      padding: 40px;
+      border-radius: 12px;
+      text-align: center;
+      max-width: 400px;
+      flex: 1;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .course-box h2 {
+      font-size: 26px;
+      margin-bottom: 20px;
+      color: #0047ab;
+    }
+
+    .course-box p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    .course-box a {
+      background-color: #6499ff;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+
+    .course-box a:hover {
+      background-color: #4a84e4;
+    }
+
+    .highlight-wrapper {
+      max-width: 600px;
+      flex: 1;
+    }
+
+    .highlight-wrapper h2 {
+      text-align: center;
+      color: #ff6700;
+      margin-bottom: 30px;
+    }
+
+    .highlight-section {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .highlight-section img {
+      margin-right: 15px;
+      border-radius: 6px;
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+    }
+
+    .highlight-section h3 {
+      margin: 0;
+      color: #333;
+      font-size: 18px;
+    }
+
+    .highlight-section:hover h3 {
+      color: #0047ab;
+    }
+
+    .highlight-section p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .highlight-separator {
+      border: none;
+      border-top: 1px solid #e0e0e0;
+      margin: 20px 0;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .two-columns {
+        flex-direction: column;
+      }
+
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+
+    <div class="header">
+      <h1>You're Invited: <strong>Digital Growth Summit 2025</strong></h1>
+    </div>
+
+    <div class="content">
+      <div class="two-columns">
+        <div class="column">
+          <img src="https://template.canva.com/EAFqhE7n-yo/2/0/1600w-AEjU_KNtqEA.jpg" alt="Event Banner" />
+        </div>
+        <div class="column">
+          <p><strong>Join us online for a high-impact virtual experience designed to supercharge your digital strategy.</strong></p>
+
+<p>Whether you're a marketer, entrepreneur, or creative professional, this is your chance to learn from top industry voices and discover actionable strategies you can implement right away.</p>
+
+<p>🛠️ <strong>Live Interactive Workshops</strong><br>
+Gain hands-on experience with tools, platforms, and techniques that are reshaping marketing, branding, and growth.</p>
+
+<p>🤝 <strong>Networking Rooms</strong><br>
+Connect directly with like-minded professionals, potential collaborators, and even future clients through structured networking sessions.</p>
+
+<p>🎤 <strong>Live Q&A With Experts</strong><br>
+Have burning questions? Our keynote speakers and panelists will be ready to answer them live during dedicated Q&A blocks.</p>
+
+<p><a href="https://ascendglobal.net/digital-growth-summit-2025" style="color: #0047ab; font-weight: bold;">→ Save Your Spot Now</a></p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="background-color: #fff1e6;">
+      <div class="course-box">
+        <h2>Keynote: Building Brands That Last</h2>
+        <p>Top CEOs and digital experts reveal the tactics that built 7-figure brands from scratch.</p>
+        <a href="https://ascendglobal.net/summit-keynote">View Schedule</a>
+      </div>
+
+      <div class="highlight-wrapper">
+        <h2>Highlights You Can’t Miss</h2>
+
+        <div class="highlight-section">
+          <img src="https://cdn-icons-png.flaticon.com/128/9179/9179494.png" alt="Networking Icon" />
+          <div>
+            <h3>Live Networking</h3>
+            <p>Meet like-minded professionals in breakout rooms and live sessions.</p>
+          </div>
+        </div>
+
+        <hr class="highlight-separator" />
+
+        <div class="highlight-section">
+          <img src="https://cdn-icons-png.flaticon.com/128/15710/15710554.png" alt="Workshop Icon" />
+          <div>
+            <h3>Hands-On Sessions</h3>
+            <p>Engage in practical learning with digital tools, marketing, and automation.</p>
+          </div>
+        </div>
+
+        <hr class="highlight-separator" />
+
+        <div class="highlight-section">
+          <img src="https://cdn-icons-png.flaticon.com/128/9179/9179545.png" alt="Panel Icon" />
+          <div>
+            <h3>Live Panels</h3>
+            <p>Ask questions directly to the experts during our interactive Q&A panels.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: block;">
+        <h2 style="text-align: center; color: #ff6700;">From Our Community</h2>
+        <blockquote style="font-style: italic; color: #444; padding: 10px 20px; border-left: 4px solid #ff6700; margin: 20px auto; max-width: 700px;">
+          <span style="font-size: 52px; font-family: 'Merriweather', serif; color: #ff6700;">“</span>
+          <span style="font-size: 30px; color: #ff6700;">T</span>he connections I gained here made a real difference. Absolutely coming back next year!
+          <span style="font-size: 52px; font-family: 'Merriweather', serif; color: #ff6700;">”</span>
+          <br>
+          <span style="display: block; text-align: right; font-weight: bold;">— Clara P., Brand Strategist</span>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Questions? Email us at <a href="mailto:soporte@ascendglobal.net"><strong>soporte@ascendglobal.net</strong></a></p>
+      <p>Carrera 135 #17-35 Bogotá D.C, Colombia.</p>
+      <img class="logo" src="https://ascendglobal.net/wp-content/uploads/2024/04/cropped-Transparent-background.png" alt="Ascend Global Logo" />
+    </div>
+
+  </div>
+</body>
+  
+</html>
