@@ -95,4 +95,4 @@ This project is licensed under the MIT License — see the [LICENSE](https://git
 **Steven O'Neill**
 Front-End Developer & Digital Strategist
 🌐 [ascendglobal.net](https://ascendglobal.net/)
-🔗 [GitHub](https://github.com/Mr-ONeill/) · 💼 [LinkedIn](https://www.linkedin.com/in/steven-oneill-/)
+🔗 [GitHub](https://github.com/Mr-0Neill/) · 💼 [LinkedIn](https://www.linkedin.com/in/steven-oneill-/)
